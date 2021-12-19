@@ -1,0 +1,172 @@
+body{
+    background-color: white;
+}
+#header {
+    height: auto;
+    display: none;
+
+}
+#bootnav{
+    display: block;
+}
+.PopularMoviescard{
+    max-width: 170px;
+}
+.popularTrailerCarde{
+    /* display: flex; */
+    grid-template-columns: auto;
+}
+#animatemovie{
+    height: 250px;
+    width: 100%;
+}
+.slides {
+    height: 200px;
+}
+.popularTrailerCarde iframe{
+    width: 100%;
+}
+#animatemovieimage{
+    width: 90%;
+    margin: 0 auto;
+   
+}
+div#Genres {
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.moviesheadings {
+    list-style: none;
+    display: block;
+    margin: 1px;
+}
+div#Genres a{
+    border-radius: 2px;
+    display: block;
+}
+#containerdownload {
+    background: #000000ad;
+    max-height: 871px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1%;
+    border-radius: 10px;
+    padding: 2%;
+}
+#containertv {
+    background: #000000ad;
+    max-height: 871px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1%;
+    border-radius: 10px;
+    padding: 2%;
+}
+#containerweb {
+    background: #000000ad;
+    max-height: 871px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1%;
+    border-radius: 10px;
+    padding: 2%;
+}
+#containerupcoming {
+    background: #000000ad;
+    max-height: 871px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1%;
+    border-radius: 10px;
+    padding: 2%;
+}
+#containersec {
+    background: #000000ad;
+    max-height: 871px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: auto auto;
+    grid-gap: 1%;
+    border-radius: 10px;
+    padding: 2%;
+}
+#containerthird {
+    background: #000000ad;
+    max-height: 871px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: auto auto;
+    grid-gap: 1%;
+    border-radius: 10px;
+    padding: 2%;
+}
+#containerfour {
+    background: #000000ad;
+    max-height: 871px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: auto auto;
+    grid-gap: 1%;
+    border-radius: 10px;
+    padding: 2%;
+}
+#containerfive{
+    background: #000000ad;
+    max-height: 871px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: auto auto;
+    grid-gap: 1%;
+    border-radius: 10px;
+    padding: 2%;
+}
+#containersix{
+    background: #000000ad;
+    max-height: 871px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: auto auto;
+    grid-gap: 1%;
+    border-radius: 10px;
+    padding: 2%;
+}
+.PopularMoviescard img {
+    height: 200px;
+    width: auto;
+}
+.Popularwebcard {
+    padding: 2px;
+    color: white;
+    background: black;
+    width: 150px;
+    max-height: 465px;
+    margin-bottom: 2px;
+}
+.Popularwebcard img {
+    height: 200px;
+    width: 100%;
+}
+.insidesingleitemdiv {
+    display: grid;
+    grid-template-columns: auto;
+}
