@@ -152,7 +152,7 @@ div#Genres a{
 }
 .PopularMoviescard img {
     height: 200px;
-    width: auto;
+    width: 100%;
 }
 .Popularwebcard {
     padding: 2px;
