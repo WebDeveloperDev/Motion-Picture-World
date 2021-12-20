@@ -312,7 +312,7 @@ function capitalizeFirstLetter(string) {
 }
 
 
-
+ 
 
 
 let search = document.getElementById('searchInput');
@@ -320,6 +320,32 @@ search.addEventListener("input", function () {
 
     let inputVal = capitalizeFirstLetter(search.value);
     //    console.log('input event fired!',inputVal) 
+    let PopularMoviescard = document.getElementsByClassName('PopularMoviescard');
+    console.log(PopularMoviescard)
+    Array.from(PopularMoviescard).forEach(function (element) {
+        console.log(element)
+        let cardTxt = element.getElementsByTagName('strong')[0].innerText;
+        if (cardTxt.includes(inputVal)) {
+            element.style.display = 'block'
+            // let nomatch=document.getElementById('nomatch')
+            // nomatch.style.display='none'
+
+        }
+        else {
+            element.style.display = 'none'
+            // let nomatch=document.getElementById('nomatch')
+            // nomatch.style.display='block'
+
+        }
+        //    console.log(cardTxt);
+    })
+});
+
+let searchdesk = document.getElementById('searchInputdesk');
+searchdesk.addEventListener("input", function () {
+
+    let inputVal = capitalizeFirstLetter(searchdesk.value);
+       console.log('input event fired!',inputVal) 
     let PopularMoviescard = document.getElementsByClassName('PopularMoviescard');
     console.log(PopularMoviescard)
     Array.from(PopularMoviescard).forEach(function (element) {
