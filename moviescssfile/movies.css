@@ -305,6 +305,7 @@ button#searchbtn:hover {
     max-width: 205px;
     max-height: 465px;
     margin-bottom: 2px;
+    min-width: 150px;
 }
 .Popularwebcard {
     padding: 2px;
