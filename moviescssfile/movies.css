@@ -439,6 +439,9 @@ iframe {
 .trailerdetails strong {
     color: #fa4b4b;
 }
+.trailerdetails  {
+    color: black;
+}
 .webdata{
     display: none;
 }
@@ -526,4 +529,8 @@ button#seemorebtn {
 }
 #bootnav{
     display: none;
+}
+
+div#slick-slide05 {
+    text-align: center;
 }
